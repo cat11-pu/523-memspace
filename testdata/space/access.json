@@ -1,0 +1,175 @@
+{
+  "requests": [
+    {
+      "op": "write",
+      "address": 8192,
+      "width": 4,
+      "value": 168548243,
+      "initiator": "cpu"
+    },
+    {
+      "op": "write",
+      "address": 8196,
+      "width": 4,
+      "value": 3393621101,
+      "initiator": "cpu"
+    },
+    {
+      "op": "read",
+      "address": 8192,
+      "width": 4,
+      "initiator": "cpu"
+    },
+    {
+      "op": "read",
+      "address": 8196,
+      "width": 4,
+      "initiator": "dma"
+    },
+    {
+      "op": "write",
+      "address": 8200,
+      "width": 2,
+      "value": 48879,
+      "initiator": "dma"
+    },
+    {
+      "op": "read",
+      "address": 8200,
+      "width": 2,
+      "initiator": "dma"
+    },
+    {
+      "op": "write",
+      "address": 8194,
+      "width": 1,
+      "value": 4660,
+      "initiator": "dma"
+    },
+    {
+      "op": "read",
+      "address": 8194,
+      "width": 1,
+      "initiator": "dma"
+    },
+    {
+      "op": "write",
+      "address": 4096,
+      "width": 4,
+      "value": 3735928559,
+      "initiator": "cpu"
+    },
+    {
+      "op": "read",
+      "address": 4096,
+      "width": 4,
+      "initiator": "cpu"
+    },
+    {
+      "op": "write",
+      "address": 8446,
+      "width": 4,
+      "value": 287454020,
+      "initiator": "cpu"
+    },
+    {
+      "op": "read",
+      "address": 8194,
+      "width": 4,
+      "initiator": "cpu"
+    },
+    {
+      "op": "write",
+      "address": 12290,
+      "width": 4,
+      "value": 1,
+      "initiator": "cpu"
+    },
+    {
+      "op": "read",
+      "address": 12290,
+      "width": 4,
+      "initiator": "cpu"
+    },
+    {
+      "op": "read",
+      "address": 8574,
+      "width": 4,
+      "initiator": "dma"
+    },
+    {
+      "op": "read",
+      "address": 4092,
+      "width": 4,
+      "initiator": "cpu"
+    },
+    {
+      "op": "read",
+      "address": 16384,
+      "width": 4,
+      "initiator": "cpu"
+    },
+    {
+      "op": "read",
+      "address": 4294967295,
+      "width": 1,
+      "initiator": "dma"
+    },
+    {
+      "op": "read",
+      "address": 4294967294,
+      "width": 4,
+      "initiator": "dma"
+    },
+    {
+      "op": "read",
+      "address": 8192,
+      "width": 3,
+      "initiator": "cpu"
+    },
+    {
+      "op": "write",
+      "address": 20480,
+      "width": 2,
+      "value": 255,
+      "initiator": "cpu"
+    },
+    {
+      "op": "read",
+      "address": 20480,
+      "width": 1,
+      "initiator": "cpu"
+    },
+    {
+      "op": "write",
+      "address": 8444,
+      "width": 4,
+      "value": 2578103244,
+      "initiator": "cpu"
+    },
+    {
+      "op": "read",
+      "address": 8444,
+      "width": 4,
+      "initiator": "dma"
+    },
+    {
+      "op": "read",
+      "address": 8448,
+      "width": 4,
+      "initiator": "dma"
+    },
+    {
+      "op": "read",
+      "address": 8450,
+      "width": 4,
+      "initiator": "cpu"
+    },
+    {
+      "op": "read",
+      "address": 8193,
+      "width": 2,
+      "initiator": "cpu"
+    }
+  ]
+}

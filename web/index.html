@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>mips32</title>
+
+    <link rel="stylesheet" href="assets/style.css" type="text/css">
+    <script src="assets/jquery-1.12.2.min.js"></script>
+    <script src="assets/navbar.js"></script>
+    <script src="assets/src.js"></script>
+  </head>
+  <body class="showing-assembler">
+    <nav>
+      <a href="#assembler" id="assembler-link" class="nav-link nav-link-first">Assembler</a>
+      <a href="#debugger" id="debugger-link" class="nav-link">Debugger</a>
+      <a href="#disassembler" id="disassembler-link" class="nav-link">Disassembler</a>
+    </nav>
+    <div id="assembler" class="content-pane">
+      <textarea id="assembler-code"></textarea>
+      <br>
+      <button id="assembler-button">Assemble</button>
+      <br>
+      <label id="assembler-error" class="error-view"></label>
+    </div>
+    <div id="debugger" class="content-pane">
+      <div id="debugger-controls">
+        <button id="debugger-step">Step</button>
+        <button id="debugger-play">Play</button>
+        <button id="debugger-reset">Reset</button>
+        <select id="debugger-rate">
+          <option value="1">1Hz</option>
+          <option value="2">2Hz</option>
+          <option value="4" selected>4Hz</option>
+          <option value="8">8Hz</option>
+          <option value="16">16Hz</option>
+          <option value="32">32Hz</option>
+          <option value="64">64Hz</option>
+          <option value="128">128Hz</option>
+          <option value="256">256Hz</option>
+          <option value="512">512Hz</option>
+        </select>
+      </div>
+      <label id="debugger-error" class="error-view"></label>
+      <table id="debugger-code-view"></table>
+      <label id="debugger-step-count">Steps: 0</label>
+      <table id="debugger-registers"></table>
+      <br>
+      <div id="debugger-memory">
+        Memory at <label id="debugger-memory-base">0x00000000</label>
+        <br>
+        <table id="debugger-memory-contents"></table>
+      </div>
+    </div>
+    <div id="disassembler" class="content-pane">
+      <textarea id="disassembler-data"></textarea>
+      <br>
+      <button id="disassembler-button">Disassemble</button>
+      <br>
+      <label id="disassembler-error" class="error-view"></label>
+    </div>
+  </body>
+</html>

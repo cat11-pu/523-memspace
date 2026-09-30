@@ -1,0 +1,65 @@
+{
+  "byte_order": "big",
+  "segments": [
+    {
+      "name": "rom",
+      "start": 4096,
+      "length": 256,
+      "read": true,
+      "write": false,
+      "exec": true,
+      "read_only": true,
+      "word_aligned": true
+    },
+    {
+      "name": "ram",
+      "start": 8192,
+      "length": 256,
+      "read": true,
+      "write": true,
+      "exec": false,
+      "read_only": false,
+      "word_aligned": true
+    },
+    {
+      "name": "stack",
+      "start": 8448,
+      "length": 128,
+      "read": true,
+      "write": true,
+      "exec": false,
+      "read_only": false,
+      "word_aligned": true
+    },
+    {
+      "name": "vram",
+      "start": 12288,
+      "length": 64,
+      "read": true,
+      "write": true,
+      "exec": false,
+      "read_only": false,
+      "word_aligned": false
+    },
+    {
+      "name": "guard",
+      "start": 16384,
+      "length": 16,
+      "read": false,
+      "write": false,
+      "exec": true,
+      "read_only": false,
+      "word_aligned": false
+    },
+    {
+      "name": "port",
+      "start": 20480,
+      "length": 8,
+      "read": true,
+      "write": true,
+      "exec": false,
+      "read_only": true,
+      "word_aligned": false
+    }
+  ]
+}
